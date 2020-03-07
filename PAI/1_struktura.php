@@ -8,7 +8,33 @@
 <body>
     <?php
          echo "tekst";
+         $name= "janusz";
+         $surname="kowalski";
 
-    ?>
+            echo $name." ".$surname,"<br/>";
+            echo $name." ".$surname,"<br/>";
+            
+            echo "$name $surname";
+            echo '$name $surname';
+            
+            //heredoc
+echo <<<SHOW
+            <hr>
+                imię: $name<br>
+                Nazwisko: $surname
+            <hr>
+SHOW;
+
+         //heredoc
+         $tekst=<<<SHOW
+         <hr>
+             imię: $name<br>
+             Nazwisko: $surname
+         <hr>
+SHOW;
+
+echo $tekst;
+
+            ?>
 </body>
 </html>
