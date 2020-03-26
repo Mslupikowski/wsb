@@ -7,24 +7,45 @@
 
 
     <style>
-        table, td {
-            border: 1.5px solid black;
-            border-collapse: collapse;
-            width: 50%;
-            height: 50%;
-            text-align: center;
-        }
+
+
 
         th{
             border:0px;
-            border-collapse: collapse;
-            height:20px;
-            padding:0px;
-            border-image-width:0px;
+            border-spacing: 0px;
+
+
+        }
+        tbody{
+            
+            
+            
 
 
         }
 
+        table{
+
+             width: 50%;
+            height: 50%;
+            text-align: center;
+            border-spacing: 0px;
+            
+            border-right:0px;
+
+
+        }
+        
+
+         td  {
+             width: 50%;
+            height: 50%;
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+            
+           
+        }
  
 
 </style>
@@ -50,27 +71,24 @@
         
         <article id="TRESC">
       
-
 <table>
   <tr>
     <td rowspan="2">1.1</td>
     <td >1.2</td>
   </tr>
-  <tr>
+  <tr >
     <td rowspan="2">2.2</td>
-      <th>
-
-      </th>
+      <th height="19px"></th>
       
   </tr>
   <tr>
     <td>31.</td>
-
   </tr>
   <tr>
     <td colspan="2">4.1</td>
   </tr>
 </table>
+
         
         </article>
 
