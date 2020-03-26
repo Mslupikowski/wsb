@@ -1,0 +1,5 @@
+Witryna stron www
+1. Proszê utworzyæ szablon stron www w technologii HTML5
+a) strona powinna byæ responsywna 
+b) mo¿na zastosowaæ bootstrap
+c) umieœciæ stronê na stronie github.com
